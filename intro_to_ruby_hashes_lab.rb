@@ -34,9 +34,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash[]
-  shipping_manifest["top hat"] += 1
+  if hash[key]
+  hash[key] += 1
 else
-  shipping_manifest["top hat"] = 1
-end
+  hash[key] = 1
 end
