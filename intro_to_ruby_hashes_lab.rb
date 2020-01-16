@@ -24,7 +24,7 @@ end
 
 def my_hash_creator(key, value)
   person = {
-    :name => value
+    :key => value
   }
   return person
 end
