@@ -4,7 +4,7 @@ end
 
 def my_hash
   name = {
-    :first = 
+    name: Carl 
   }
 end
 
